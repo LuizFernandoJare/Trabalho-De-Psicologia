@@ -1,0 +1,278 @@
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Estilo da navegação */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo dos itens da navegação */
+.nav-list li {
+    margin: 0 15px;
+}
+
+/* Estilo dos botões de navegação */
+.nav-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+/* Efeito de hover nos botões */
+.nav-button:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* Estilo das caixas no rodapé */
+.footer-box {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+/* Estilo das imagens no rodapé */
+.footer-img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilo dos títulos das caixas no rodapé */
+.footer-box h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto centralizado */
+.center-text {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: black (255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 1.5;
+    margin: 20px auto; /* Centraliza o parágrafo */
+    max-width: 600px; /* Limita a largura máxima do texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao redor da caixa */
+}
+
+/* Media Queries para responsividade */
+
+/* Para telas menores que 768px */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    .nav-button {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-box {
+        padding: 10px;
+    }
+
+    .footer-img {
+        width: 80px;
+    }
+
+    .center-text {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
+/* Para telas menores que 480px */
+@media (max-width: 480px) {
+    .footer-box {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+
+    .footer-img {
+        width: 60px;
+    }
+
+    .center-text {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
+/* Estilos gerais */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Estilo do cabeçalho */
+header {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+/* Estilo da navegação */
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilo dos itens da navegação */
+.nav-list li {
+    margin: 0 15px;
+}
+
+/* Estilo dos botões de navegação */
+.nav-button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border: 2px solid transparent;
+    transition: all 0.3s;
+}
+
+/* Efeito de hover nos botões */
+.nav-button:hover {
+    border: 2px solid white;
+    border-radius: 5px;
+    background-color: #555;
+}
+
+/* Estilo do rodapé */
+footer {
+    display: flex;
+    justify-content: space-around;
+    background-color: #333;
+    padding: 20px 0;
+    color: white;
+    flex-wrap: wrap;
+}
+
+/* Estilo das caixas no rodapé */
+.footer-box {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+    min-width: 200px;
+    box-sizing: border-box;
+}
+
+/* Estilo das imagens no rodapé */
+.footer-img {
+    width: 100px;
+    height: auto;
+    margin-top: 10px;
+}
+
+/* Estilo dos títulos das caixas no rodapé */
+.footer-box h2 {
+    margin-bottom: 10px;
+}
+
+/* Estilo do texto centralizado */
+.center-text {
+    border: 2px solid white;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    display: inline-block;
+    text-align: center;
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 1.5;
+    margin: 20px auto; /* Centraliza o parágrafo */
+    max-width: 600px; /* Limita a largura máxima do texto */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Adiciona uma sombra ao redor da caixa */
+}
+
+/* Media Queries para responsividade */
+
+/* Para telas menores que 768px */
+@media (max-width: 768px) {
+    .nav-list {
+        flex-direction: column;
+    }
+
+    .nav-list li {
+        margin: 10px 0;
+    }
+
+    .nav-button {
+        padding: 10px;
+    }
+
+    footer {
+        padding: 10px 0;
+    }
+
+    .footer-box {
+        padding: 10px;
+    }
+
+    .footer-img {
+        width: 80px;
+    }
+
+    .center-text {
+        font-size: 1em;
+        padding: 15px;
+    }
+}
+
+/* Para telas menores que 480px */
+@media (max-width: 480px) {
+    .footer-box {
+        flex: 1 1 100%;
+        padding: 10px;
+    }
+
+    .footer-img {
+        width: 60px;
+    }
+
+    .center-text {
+        font-size: 0.9em;
+        padding: 10px;
+    }
+}
